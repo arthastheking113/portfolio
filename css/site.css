@@ -1,0 +1,28 @@
+.image {
+    top: 100px;
+    left: 100px;
+  }
+  .downloadbtn {
+
+    cursor: pointer;
+}
+
+.downloadbtn:before {
+  content: url(https://icons.getbootstrap.com/icons/download.svg);
+  margin-right: 5px;
+  margin-top: -5px;
+
+}
+.printbtn {
+
+    color: grey;
+    
+  
+    cursor: pointer;
+}
+
+.printbtn:before {
+  content: url(https://icons.getbootstrap.com/icons/printer.svg);
+  margin-right: 5px;
+  margin-top: -100px;
+}
